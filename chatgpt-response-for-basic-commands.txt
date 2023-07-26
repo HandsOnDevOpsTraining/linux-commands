@@ -1,6 +1,7 @@
+### ChatGpt question
 As a new person learning computer concepts, give me some basic linux commands
 
-Response from ChatGPT
+### Response from ChatGPT
 
 Sure! Here are some basic Linux commands that are helpful for beginners:
 

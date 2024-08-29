@@ -1,6 +1,3 @@
-#### Command to become a super or admin or root user in the machine
-sudo su -
-
 #### Identify the present working directory
 pwd
 
@@ -15,3 +12,9 @@ mkdir <folder-name>
 
 #### To change directory
 cd <folder-name>
+
+#### To come out of the directory/folder
+cd ..
+
+#### To clear the terminal
+clear

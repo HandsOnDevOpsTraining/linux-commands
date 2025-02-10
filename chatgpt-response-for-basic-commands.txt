@@ -49,6 +49,45 @@ These are just a few basic Linux commands to get you started. Remember to use th
 
 
 
+Here are some basic Linux commands to get you started:
 
-
-Regenerate response
+1. Navigation Commands
+pwd → Show the current directory.
+ls → List files and directories.
+cd <directory> → Change to a specific directory.
+Example: cd Documents
+cd .. → Move up one directory.
+2. File and Directory Commands
+touch <filename> → Create a new empty file.
+Example: touch myfile.txt
+mkdir <directory> → Create a new directory.
+Example: mkdir myfolder
+rm <filename> → Delete a file.
+Example: rm myfile.txt
+rmdir <directory> → Remove an empty directory.
+rm -r <directory> → Remove a directory and its contents.
+3. Viewing Files
+cat <filename> → Display the contents of a file.
+less <filename> → View file contents page by page.
+head <filename> → Show the first 10 lines of a file.
+tail <filename> → Show the last 10 lines of a file.
+4. System Information
+whoami → Show the current user.
+uname -a → Display system information.
+df -h → Check disk space usage.
+free -h → Check memory usage.
+5. Process Management
+ps → List running processes.
+top → Show system resource usage.
+kill <PID> → Terminate a process by its Process ID (PID).
+Example: kill 1234
+htop → (If installed) A user-friendly version of top.
+6. Permissions & Ownership
+ls -l → Show file permissions.
+chmod 755 <filename> → Change file permissions.
+chown user:group <filename> → Change file owner.
+7. Networking
+ping <website> → Check if a website is reachable.
+Example: ping google.com
+curl <URL> → Fetch data from a URL.
+wget <URL> → Download a file from the internet.
